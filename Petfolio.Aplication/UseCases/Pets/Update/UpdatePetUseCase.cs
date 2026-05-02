@@ -1,6 +1,6 @@
 ﻿using Petfolio.Communication_Request_e_Response.Request;
 
-namespace Petfolio.Aplication_Business_Rule.UseCases.Update;
+namespace Petfolio.Aplication_Business_Rule.UseCases.Pets.Update;
 
 public class UpdatePetUseCase
 {
