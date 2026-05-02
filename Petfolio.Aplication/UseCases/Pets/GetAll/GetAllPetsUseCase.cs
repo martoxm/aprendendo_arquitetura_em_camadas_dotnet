@@ -1,0 +1,23 @@
+﻿using Petfolio.Communication_Request_e_Response.Enums_Tipo_de_Pet;
+using Petfolio.Communication_Request_e_Response.Responses;
+
+namespace Petfolio.Aplication_Business_Rule.UseCases.Pets.GetAll;
+
+public class GetAllPetsUseCase
+{
+    public ResponseAllPetJson Execute()
+    {
+        return new ResponseAllPetJson
+        {
+            Pets = new List<ResponseShortPetJson>
+            {
+                new ResponseShortPetJson
+                {
+                    Id = 1,
+                    Name = "Buddy",
+                    Type = PetType.Dog
+                },
+            }
+        };
+    }
+}
