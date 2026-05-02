@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Petfolio.Aplication\Petfolio.Aplication Regras de Negocio.csproj" />
+    <ProjectReference Include="..\Petfolio.Aplication\Petfolio.Aplication Business Rule.csproj" />
     <ProjectReference Include="..\Petfolio.Communication\Petfolio.Communication Request e Response.csproj" />
   </ItemGroup>
 
