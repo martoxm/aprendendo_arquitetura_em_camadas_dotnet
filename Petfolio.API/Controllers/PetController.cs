@@ -18,6 +18,8 @@ public class PetController : ControllerBase
         var reponse = useCase.Execute(request);
 
         
-        return Created(string.Empty, reponse);
+    public IActionResult Update([FromRoute] int id, [FromBody] RequestPetJson request)
+    {
+        return NoContent();
     }
 }
